@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 ASSIGNMENT BY AKOGWU EMMANUEL</title>
+    <style>
+
+        form{
+            background-color: rgb(187, 207, 221);
+            font-weight: bold;
+        }
+        header{
+            text-align: center;
+            font-size: 2.5em;
+        }
+        input, label, textarea, div{
+            margin: auto 275px;
+        }
+        input{
+            width: 25%;
+            height:22px;
+        }
+     
+       
+    </style>
+</head>
+<body>
+    <form>
+        <header> Response Form</header><br>
+        <fieldset>
+            <legend>Individual Details</legend>
+
+            <div>
+                <label for='firstname' style="margin-left: 60px"></label>First Name:</label><br>
+                <input id="firstname" name="fname" type='text' placeholder='click here to enter your first name!'><br>
+                <label for="lastname" style="margin-left: 330px">Last name:</label><br>
+                <input id='lastname' name="lname" type="text" placeholder='click here to enter your Last name!'><br>
+                <label for='email' style="margin-left: 340px">Email:</label><br>
+                <input id="email" name="email" type="email" placeholder="enter you email here"><br><br><br>
+                <label for="gender" style="margin-left: 340px">Gender</label><br><br>
+                <input id="gender" name="gender" type="text">
+            </div>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Response Section</legend>
+
+            <div>
+                <label>Give Your Response</label><br><br>
+                <textarea name="comments" rows="10" columns='#' ></textarea><br><br>
+                <div style="margin-left:300px">
+                    <button type="button">Submit</button>
+                    <button type="button">Reset</button>
+                </div>
+            </div><br>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
